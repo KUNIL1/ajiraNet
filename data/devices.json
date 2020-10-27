@@ -1,0 +1,17 @@
+[
+    {
+        "type": "COMPUTER",
+        "name": "A3",
+        "value": 5
+    },
+    {
+        "type": "COMPUTER",
+        "name": "A2",
+        "value": 5
+    },
+    {
+        "type": "COMPUTER",
+        "name": "A1",
+        "value": 5
+    }
+]
