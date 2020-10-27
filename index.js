@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const Enum = require('enum');
-const devices = require('./data/devices.json')
-const connections = require('./data/connections.json')
+// const devices = require('./data/devices.json')
+// const connections = require('./data/connections.json')
 const helperModule= require('./helper/route-info.js')
 const port = 3000
 
@@ -16,8 +16,8 @@ const type = new Enum([
   "COMPUTER",
   "REPEATER"
 ]);
-// let devices = [],
-  // let connections = [];
+let devices = [],
+  connections = [];
 
 // list all the devices used in network
 app.get('/ajiranet/process/devices', (req, res, next) => {
